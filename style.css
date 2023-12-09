@@ -1,0 +1,79 @@
+*{
+    padding: 0;;
+    margin: 0;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#slider{
+    width: 80%;
+    height: 80vh;
+    background-color: aliceblue;
+}
+
+#slider > img{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#btn{
+    width: 80%;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn > i{ 
+    font-size: 60px;
+    height: 60px;
+    width: 60px;  
+    background-color: beige;  
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ss{
+    font-size: 60px;
+    height: 60px;
+    width: 60px;  
+    background-color: beige;  
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#Stop{
+    position: absolute;
+    display: none;
+}
+.imgDiv{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;       
+    background-color: red;
+    background-size: contain;
+    background-position: center;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
