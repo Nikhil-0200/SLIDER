@@ -109,7 +109,7 @@ function showImg(index){
 
     images = document.querySelectorAll(".imgDiv img"); // created a new images variable in function to store in it the images which are in array. "here .imgDiv - class of new div & img is the images of array"
 
-    images.forEach((image, i)=>{ //Running for loop on images variable created which was created above in line no.110.
+    images.forEach((image, i)=>{ //Running forEach loop on images variable created which was created above in line no.110.
         if(i == index){ // checking here, wheather the indexs which will be passed in the showImg function (argument) will be equal to the index of the images or NOT.
             image.style.display = "block"; // IF YES, THEN MAKING IMAGE TO DISPLAY BLOCK,
         }
